@@ -9,24 +9,18 @@
 /* Begin PBXBuildFile section */
 		518CE7532A1CE1E300634E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7522A1CE1E300634E44 /* AppDelegate.swift */; };
 		518CE7552A1CE1E300634E44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7542A1CE1E300634E44 /* SceneDelegate.swift */; };
-		518CE7572A1CE1E300634E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7562A1CE1E300634E44 /* ViewController.swift */; };
-		518CE75A2A1CE1E300634E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518CE7582A1CE1E300634E44 /* Main.storyboard */; };
+		518CE7572A1CE1E300634E44 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7562A1CE1E300634E44 /* ListVC.swift */; };
 		518CE75C2A1CE1E500634E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518CE75B2A1CE1E500634E44 /* Assets.xcassets */; };
 		518CE75F2A1CE1E500634E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518CE75D2A1CE1E500634E44 /* LaunchScreen.storyboard */; };
 		518CE76A2A1CE1E500634E44 /* ybs_techtaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7692A1CE1E500634E44 /* ybs_techtaskTests.swift */; };
-		518CE7742A1CE1E500634E44 /* ybs_techtaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7732A1CE1E500634E44 /* ybs_techtaskUITests.swift */; };
-		518CE7762A1CE1E500634E44 /* ybs_techtaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7752A1CE1E500634E44 /* ybs_techtaskUITestsLaunchTests.swift */; };
+		518CE7852A1CE42200634E44 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7842A1CE42200634E44 /* SearchVC.swift */; };
+		518CE7892A1CE46800634E44 /* YBTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7882A1CE46800634E44 /* YBTextField.swift */; };
+		518CE78C2A1CE4D100634E44 /* YBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE78B2A1CE4D100634E44 /* YBButton.swift */; };
+		518CE7962A1CE7FB00634E44 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7922A1CE7FB00634E44 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		518CE7662A1CE1E500634E44 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 518CE7472A1CE1E200634E44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 518CE74E2A1CE1E300634E44;
-			remoteInfo = "ybs-techtask";
-		};
-		518CE7702A1CE1E500634E44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 518CE7472A1CE1E200634E44 /* Project object */;
 			proxyType = 1;
@@ -39,16 +33,16 @@
 		518CE74F2A1CE1E300634E44 /* ybs-techtask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ybs-techtask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518CE7522A1CE1E300634E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		518CE7542A1CE1E300634E44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		518CE7562A1CE1E300634E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		518CE7592A1CE1E300634E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		518CE7562A1CE1E300634E44 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
 		518CE75B2A1CE1E500634E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		518CE75E2A1CE1E500634E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518CE7602A1CE1E500634E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		518CE7652A1CE1E500634E44 /* ybs-techtaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ybs-techtaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518CE7692A1CE1E500634E44 /* ybs_techtaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_techtaskTests.swift; sourceTree = "<group>"; };
-		518CE76F2A1CE1E500634E44 /* ybs-techtaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ybs-techtaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		518CE7732A1CE1E500634E44 /* ybs_techtaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_techtaskUITests.swift; sourceTree = "<group>"; };
-		518CE7752A1CE1E500634E44 /* ybs_techtaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_techtaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		518CE7842A1CE42200634E44 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		518CE7882A1CE46800634E44 /* YBTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBTextField.swift; sourceTree = "<group>"; };
+		518CE78B2A1CE4D100634E44 /* YBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBButton.swift; sourceTree = "<group>"; };
+		518CE7922A1CE7FB00634E44 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +60,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		518CE76C2A1CE1E500634E44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +68,6 @@
 			children = (
 				518CE7512A1CE1E300634E44 /* ybs-techtask */,
 				518CE7682A1CE1E500634E44 /* ybs-techtaskTests */,
-				518CE7722A1CE1E500634E44 /* ybs-techtaskUITests */,
 				518CE7502A1CE1E300634E44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +77,6 @@
 			children = (
 				518CE74F2A1CE1E300634E44 /* ybs-techtask.app */,
 				518CE7652A1CE1E500634E44 /* ybs-techtaskTests.xctest */,
-				518CE76F2A1CE1E500634E44 /* ybs-techtaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,12 +84,10 @@
 		518CE7512A1CE1E300634E44 /* ybs-techtask */ = {
 			isa = PBXGroup;
 			children = (
-				518CE7522A1CE1E300634E44 /* AppDelegate.swift */,
-				518CE7542A1CE1E300634E44 /* SceneDelegate.swift */,
-				518CE7562A1CE1E300634E44 /* ViewController.swift */,
-				518CE7582A1CE1E300634E44 /* Main.storyboard */,
-				518CE75B2A1CE1E500634E44 /* Assets.xcassets */,
-				518CE75D2A1CE1E500634E44 /* LaunchScreen.storyboard */,
+				518CE7822A1CE2C200634E44 /* Support */,
+				518CE7862A1CE45D00634E44 /* CustomViews */,
+				518CE7832A1CE2CD00634E44 /* Screens */,
+				518CE78E2A1CE7FB00634E44 /* Extensions */,
 				518CE7602A1CE1E500634E44 /* Info.plist */,
 			);
 			path = "ybs-techtask";
@@ -118,13 +101,57 @@
 			path = "ybs-techtaskTests";
 			sourceTree = "<group>";
 		};
-		518CE7722A1CE1E500634E44 /* ybs-techtaskUITests */ = {
+		518CE7822A1CE2C200634E44 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				518CE7732A1CE1E500634E44 /* ybs_techtaskUITests.swift */,
-				518CE7752A1CE1E500634E44 /* ybs_techtaskUITestsLaunchTests.swift */,
+				518CE7522A1CE1E300634E44 /* AppDelegate.swift */,
+				518CE7542A1CE1E300634E44 /* SceneDelegate.swift */,
+				518CE75B2A1CE1E500634E44 /* Assets.xcassets */,
+				518CE75D2A1CE1E500634E44 /* LaunchScreen.storyboard */,
 			);
-			path = "ybs-techtaskUITests";
+			path = Support;
+			sourceTree = "<group>";
+		};
+		518CE7832A1CE2CD00634E44 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				518CE7842A1CE42200634E44 /* SearchVC.swift */,
+				518CE7562A1CE1E300634E44 /* ListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		518CE7862A1CE45D00634E44 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				518CE78A2A1CE4D100634E44 /* Buttons */,
+				518CE7872A1CE46800634E44 /* TextFields */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		518CE7872A1CE46800634E44 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				518CE7882A1CE46800634E44 /* YBTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		518CE78A2A1CE4D100634E44 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				518CE78B2A1CE4D100634E44 /* YBButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		518CE78E2A1CE7FB00634E44 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				518CE7922A1CE7FB00634E44 /* UIView+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +192,6 @@
 			productReference = 518CE7652A1CE1E500634E44 /* ybs-techtaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		518CE76E2A1CE1E500634E44 /* ybs-techtaskUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 518CE77F2A1CE1E500634E44 /* Build configuration list for PBXNativeTarget "ybs-techtaskUITests" */;
-			buildPhases = (
-				518CE76B2A1CE1E500634E44 /* Sources */,
-				518CE76C2A1CE1E500634E44 /* Frameworks */,
-				518CE76D2A1CE1E500634E44 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				518CE7712A1CE1E500634E44 /* PBXTargetDependency */,
-			);
-			name = "ybs-techtaskUITests";
-			productName = "ybs-techtaskUITests";
-			productReference = 518CE76F2A1CE1E500634E44 /* ybs-techtaskUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +206,6 @@
 						CreatedOnToolsVersion = 14.3;
 					};
 					518CE7642A1CE1E500634E44 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 518CE74E2A1CE1E300634E44;
-					};
-					518CE76E2A1CE1E500634E44 = {
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = 518CE74E2A1CE1E300634E44;
 					};
@@ -221,7 +226,6 @@
 			targets = (
 				518CE74E2A1CE1E300634E44 /* ybs-techtask */,
 				518CE7642A1CE1E500634E44 /* ybs-techtaskTests */,
-				518CE76E2A1CE1E500634E44 /* ybs-techtaskUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +237,10 @@
 			files = (
 				518CE75F2A1CE1E500634E44 /* LaunchScreen.storyboard in Resources */,
 				518CE75C2A1CE1E500634E44 /* Assets.xcassets in Resources */,
-				518CE75A2A1CE1E300634E44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		518CE7632A1CE1E500634E44 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		518CE76D2A1CE1E500634E44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,7 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				518CE7572A1CE1E300634E44 /* ViewController.swift in Sources */,
+				518CE7852A1CE42200634E44 /* SearchVC.swift in Sources */,
+				518CE7572A1CE1E300634E44 /* ListVC.swift in Sources */,
+				518CE7962A1CE7FB00634E44 /* UIView+Ext.swift in Sources */,
+				518CE78C2A1CE4D100634E44 /* YBButton.swift in Sources */,
+				518CE7892A1CE46800634E44 /* YBTextField.swift in Sources */,
 				518CE7532A1CE1E300634E44 /* AppDelegate.swift in Sources */,
 				518CE7552A1CE1E300634E44 /* SceneDelegate.swift in Sources */,
 			);
@@ -272,15 +272,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		518CE76B2A1CE1E500634E44 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				518CE7762A1CE1E500634E44 /* ybs_techtaskUITestsLaunchTests.swift in Sources */,
-				518CE7742A1CE1E500634E44 /* ybs_techtaskUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,22 +280,9 @@
 			target = 518CE74E2A1CE1E300634E44 /* ybs-techtask */;
 			targetProxy = 518CE7662A1CE1E500634E44 /* PBXContainerItemProxy */;
 		};
-		518CE7712A1CE1E500634E44 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 518CE74E2A1CE1E300634E44 /* ybs-techtask */;
-			targetProxy = 518CE7702A1CE1E500634E44 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		518CE7582A1CE1E300634E44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				518CE7592A1CE1E300634E44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		518CE75D2A1CE1E500634E44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +420,8 @@
 				INFOPLIST_FILE = "ybs-techtask/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +447,8 @@
 				INFOPLIST_FILE = "ybs-techtask/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,42 +502,6 @@
 			};
 			name = Release;
 		};
-		518CE7802A1CE1E500634E44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 526URZ72RD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "novicapetrovic.ybs-techtaskUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ybs-techtask";
-			};
-			name = Debug;
-		};
-		518CE7812A1CE1E500634E44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 526URZ72RD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "novicapetrovic.ybs-techtaskUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ybs-techtask";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +528,6 @@
 			buildConfigurations = (
 				518CE77D2A1CE1E500634E44 /* Debug */,
 				518CE77E2A1CE1E500634E44 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		518CE77F2A1CE1E500634E44 /* Build configuration list for PBXNativeTarget "ybs-techtaskUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				518CE7802A1CE1E500634E44 /* Debug */,
-				518CE7812A1CE1E500634E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
