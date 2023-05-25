@@ -1,9 +1,8 @@
 //
-//  GFButton.swift
+//  YBButton.swift
 //  ybs-techtask
 //
-//  Created by Sean Allen on 12/28/19.
-//  Copyright © 2019 Sean Allen. All rights reserved.
+//  Created by Nov Petrović on 16/04/2023.
 //
 
 import UIKit

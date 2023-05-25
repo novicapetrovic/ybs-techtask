@@ -9,10 +9,25 @@ import UIKit
 
 class SearchVC: UIViewController {
     
+    // MARK: - UI Components
     let logoImageView = UIImageView()
     let textfield = YBTextField()
     let ctaButton = YBButton(backgroundColor: .blue, title: "Search Photos")
     
+    // MARK: - Properties
+    private let viewModel: SearchViewModel
+    
+    // MARK: - Init
+    init(viewModel: SearchViewModel) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubviews(logoImageView, textfield, ctaButton)
@@ -23,11 +38,7 @@ class SearchVC: UIViewController {
         createDismissKeyboardTapGesture()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        navigationController?.navigationBar.isHidden = true
-    }
-    
+    // MARK: - Configure subviews
     func createDismissKeyboardTapGesture() {
         let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing(_:)))
         view.addGestureRecognizer(tap)
@@ -57,7 +68,7 @@ class SearchVC: UIViewController {
     }
     
     func configureCtaButton() {
-        ctaButton.addTarget(self, action: #selector(pushListVC), for: .touchUpInside)
+        ctaButton.addTarget(self, action: #selector(ctaTapped), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             ctaButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50),
@@ -67,14 +78,18 @@ class SearchVC: UIViewController {
         ])
     }
         
-    @objc func pushListVC() {
-        print("tapped")
+    @objc func ctaTapped() {
+        guard let tag = textfield.text else {
+            print("no tag entered")
+            return
+        }
+        viewModel.didTapSearch(tag: tag)
     }
 }
 
 extension SearchVC: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        pushListVC()
+        viewModel.didTapSearch(tag: "")
         return true
     }
 }

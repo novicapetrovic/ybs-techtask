@@ -2,7 +2,7 @@
 //  UIView+Ext.swift
 //  ybs-techtask
 //
-//  Created by Novica Petrovic on 24/12/2020.
+//  Created by Nov Petrović on 16/04/2023.
 //
 
 import UIKit
@@ -12,7 +12,6 @@ extension UIView {
     func addSubviews(_ views: UIView...) {
         for view in views { addSubview(view) }
     }
-    
     
     func pinToEdges(of superview: UIView) {
         translatesAutoresizingMaskIntoConstraints = false
