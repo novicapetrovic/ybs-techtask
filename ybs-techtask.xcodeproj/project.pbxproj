@@ -19,7 +19,6 @@
 		518CE7D92A1E312C00634E44 /* YBTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7D72A1E312C00634E44 /* YBTextField.swift */; };
 		518CE7DC2A1E315200634E44 /* YBPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7DB2A1E315200634E44 /* YBPhotoCell.swift */; };
 		518CE7DF2A1E325600634E44 /* YBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7DE2A1E325600634E44 /* YBImageView.swift */; };
-		518CE7E72A1E32AD00634E44 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7E42A1E32AD00634E44 /* UIHelper.swift */; };
 		518CE7EA2A1E35A600634E44 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7E92A1E35A600634E44 /* ListViewModel.swift */; };
 		518CE7ED2A1E36AA00634E44 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7EC2A1E36AA00634E44 /* NetworkService.swift */; };
 		518CE7EF2A1E36FD00634E44 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE7EE2A1E36FD00634E44 /* APIError.swift */; };
@@ -33,6 +32,7 @@
 		518CE8122A1EA45500634E44 /* PhotoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE8112A1EA45500634E44 /* PhotoDetail.swift */; };
 		518CE8152A1EA78800634E44 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE8132A1EA78800634E44 /* DetailVC.swift */; };
 		518CE8162A1EA78800634E44 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 518CE8142A1EA78800634E44 /* DetailVC.xib */; };
+		518CE8252A1F97F200634E44 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CE8222A1F97F200634E44 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,6 @@
 		518CE7D72A1E312C00634E44 /* YBTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBTextField.swift; sourceTree = "<group>"; };
 		518CE7DB2A1E315200634E44 /* YBPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBPhotoCell.swift; sourceTree = "<group>"; };
 		518CE7DE2A1E325600634E44 /* YBImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBImageView.swift; sourceTree = "<group>"; };
-		518CE7E42A1E32AD00634E44 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		518CE7E92A1E35A600634E44 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		518CE7EC2A1E36AA00634E44 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		518CE7EE2A1E36FD00634E44 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
@@ -75,6 +74,8 @@
 		518CE8112A1EA45500634E44 /* PhotoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetail.swift; sourceTree = "<group>"; };
 		518CE8132A1EA78800634E44 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		518CE8142A1EA78800634E44 /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		518CE8222A1F97F200634E44 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		518CE8262A1F980D00634E44 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		518CE7462A1CE1E200634E44 = {
 			isa = PBXGroup;
 			children = (
+				518CE8262A1F980D00634E44 /* README.md */,
 				518CE7512A1CE1E300634E44 /* ybs-techtask */,
 				518CE7682A1CE1E500634E44 /* ybs-techtaskTests */,
 				518CE7502A1CE1E300634E44 /* Products */,
@@ -116,7 +118,7 @@
 		518CE7512A1CE1E300634E44 /* ybs-techtask */ = {
 			isa = PBXGroup;
 			children = (
-				518CE7E12A1E32AD00634E44 /* Utilities */,
+				518CE81F2A1F97F200634E44 /* Utilities */,
 				518CE79C2A1D222500634E44 /* Models */,
 				518CE7832A1CE2CD00634E44 /* Views */,
 				518CE7E82A1E357400634E44 /* ViewModels */,
@@ -222,15 +224,6 @@
 			path = ImageView;
 			sourceTree = "<group>";
 		};
-		518CE7E12A1E32AD00634E44 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				518CE7E42A1E32AD00634E44 /* UIHelper.swift */,
-			);
-			name = Utilities;
-			path = ../../../../../../../Desktop/GHFollowers/GHFollowers/Utilities;
-			sourceTree = "<group>";
-		};
 		518CE7E82A1E357400634E44 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +282,14 @@
 				518CE8032A1E63BE00634E44 /* NetworkServiceTests.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		518CE81F2A1F97F200634E44 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				518CE8222A1F97F200634E44 /* UIHelper.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,7 +404,6 @@
 				518CE7FC2A1E5E8800634E44 /* YBTitleLabel.swift in Sources */,
 				518CE7F42A1E3A8F00634E44 /* SearchViewModel.swift in Sources */,
 				518CE7DF2A1E325600634E44 /* YBImageView.swift in Sources */,
-				518CE7E72A1E32AD00634E44 /* UIHelper.swift in Sources */,
 				518CE8122A1EA45500634E44 /* PhotoDetail.swift in Sources */,
 				518CE7ED2A1E36AA00634E44 /* NetworkService.swift in Sources */,
 				518CE7D92A1E312C00634E44 /* YBTextField.swift in Sources */,
@@ -413,6 +413,7 @@
 				518CE79E2A1D223500634E44 /* PhotoModel.swift in Sources */,
 				518CE7552A1CE1E300634E44 /* SceneDelegate.swift in Sources */,
 				518CE7EF2A1E36FD00634E44 /* APIError.swift in Sources */,
+				518CE8252A1F97F200634E44 /* UIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
